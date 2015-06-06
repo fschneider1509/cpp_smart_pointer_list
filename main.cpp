@@ -34,7 +34,7 @@ private:
 int main(int argc, const char **argv ) {
 	CTest root( "Root" );
 	
-	//Explicit Objects that also contain childs
+	//Explicit objects that also contain childs
 	std::shared_ptr<CTest> leftSide( new CTest( "LeftSide" ) );
 	std::shared_ptr<CTest> rightSide( new CTest( "RightSide" ) );
 	
